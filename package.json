@@ -6,5 +6,8 @@
   "repository": "git@github.com:julien-lmnr/parcel-boilerplate.git",
   "author": "Julien Lemonnier <contact@labfordev.fr>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "parcel": "^2.4.1"
+  }
 }
