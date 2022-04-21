@@ -6,20 +6,18 @@
   "author": "Julien Lemonnier <contact@labfordev.fr>",
   "license": "MIT",
   "private": true,
-  "source": "src/index.html",
   "browserslist": [
     "> 0.5%",
     "last 2 versions",
     "Firefox ESR",
     "not dead"
   ],
-  "scripts": {
-    "start": "parcel",
-    "build": "parcel build"
-  },
   "devDependencies": {
     "@parcel/transformer-sass": "2.4.1",
-    "parcel": "^2.4.1"
+    "parcel": "^2.4.1",
+    "stylelint": "^14.7.1",
+    "stylelint-config-standard-scss": "^3.0.0",
+    "stylelint-scss": "^4.2.0"
   },
   "dependencies": {
     "stimulus": "^3.0.1"
