@@ -1317,6 +1317,11 @@ fastq@^1.6.0:
   dependencies:
     reusify "^1.0.4"
 
+fclone@^1.0.11:
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/fclone/-/fclone-1.0.11.tgz#10e85da38bfea7fc599341c296ee1d77266ee640"
+  integrity sha1-EOhdo4v+p/xZk0HClu4ddyZu5kA=
+
 file-entry-cache@^6.0.1:
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/file-entry-cache/-/file-entry-cache-6.0.1.tgz#211b2dd9659cb0394b073e7323ac3c933d522027"
@@ -2090,7 +2095,31 @@ postcss@^8.4.12:
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
 
-posthtml-parser@^0.10.1:
+posthtml-expressions@^1.7.1:
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/posthtml-expressions/-/posthtml-expressions-1.9.0.tgz#0b00e0e557392f66eb6b88d89cd090789eadd78c"
+  integrity sha512-jf4BsY2Pw6AoBFQTklOkf+dDhq+kO+R80Dj/plPY/IpZ6sXondzp1O55wJiQK2vIUL4XSAqKdG97wE/j8EH2og==
+  dependencies:
+    fclone "^1.0.11"
+    posthtml-match-helper "^1.0.1"
+    posthtml-parser "^0.10.0"
+    posthtml-render "^3.0.0"
+
+posthtml-include@^1.7.3:
+  version "1.7.3"
+  resolved "https://registry.yarnpkg.com/posthtml-include/-/posthtml-include-1.7.3.tgz#4141aac9f47af3c690d8a660f276182fbf10f14c"
+  integrity sha512-/lebewPcCg2hBUq4tCqfqMmPBliVylJNC96RpdSlpB5DmaszuaVBpzPdFacP/qE/aQSpNDKDEC0ZmW5McxajRg==
+  dependencies:
+    posthtml "^0.16.6"
+    posthtml-expressions "^1.7.1"
+    posthtml-parser "^0.11.0"
+
+posthtml-match-helper@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/posthtml-match-helper/-/posthtml-match-helper-1.0.1.tgz#451253de8e5844a348e963ad5edd7769eb129513"
+  integrity sha1-RRJT3o5YRKNI6WOtXt13aesSlRM=
+
+posthtml-parser@^0.10.0, posthtml-parser@^0.10.1:
   version "0.10.2"
   resolved "https://registry.yarnpkg.com/posthtml-parser/-/posthtml-parser-0.10.2.tgz#df364d7b179f2a6bf0466b56be7b98fd4e97c573"
   integrity sha512-PId6zZ/2lyJi9LiKfe+i2xv57oEjJgWbsHGGANwos5AvdQp98i6AtamAl8gzSVFGfQ43Glb5D614cvZf012VKg==
@@ -2111,7 +2140,7 @@ posthtml-render@^3.0.0:
   dependencies:
     is-json "^2.0.1"
 
-posthtml@^0.16.4, posthtml@^0.16.5:
+posthtml@^0.16.4, posthtml@^0.16.5, posthtml@^0.16.6:
   version "0.16.6"
   resolved "https://registry.yarnpkg.com/posthtml/-/posthtml-0.16.6.tgz#e2fc407f67a64d2fa3567afe770409ffdadafe59"
   integrity sha512-JcEmHlyLK/o0uGAlj65vgg+7LIms0xKXe60lcDOTU7oVX/3LuEuLwrQpW3VJ7de5TaFKiW4kWkaIpJL42FEgxQ==

@@ -1,17 +1,23 @@
 {
   "name": "parcel-boilerplate",
   "version": "1.0.0",
-  "description": "Static boilerplate with Stimulus and Nunjucks",
+  "description": "Static boilerplate with Stimulus",
   "repository": "git@github.com:julien-lmnr/parcel-boilerplate.git",
   "author": "Julien Lemonnier <contact@labfordev.fr>",
   "license": "MIT",
   "private": true,
   "browserslist": "> 0.5%, last 2 versions, not dead",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
   "devDependencies": {
     "@parcel/transformer-postcss": "^2.4.1",
     "@parcel/transformer-sass": "2.4.1",
     "eslint": "^8.13.0",
     "parcel": "^2.4.1",
+    "posthtml-include": "^1.7.3",
     "stylelint": "^14.7.1",
     "stylelint-config-standard-scss": "^3.0.0",
     "stylelint-scss": "^4.2.0"
