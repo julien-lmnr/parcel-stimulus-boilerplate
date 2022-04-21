@@ -6,13 +6,9 @@
   "author": "Julien Lemonnier <contact@labfordev.fr>",
   "license": "MIT",
   "private": true,
-  "browserslist": [
-    "> 0.5%",
-    "last 2 versions",
-    "Firefox ESR",
-    "not dead"
-  ],
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "devDependencies": {
+    "@parcel/transformer-postcss": "^2.4.1",
     "@parcel/transformer-sass": "2.4.1",
     "eslint": "^8.13.0",
     "parcel": "^2.4.1",
