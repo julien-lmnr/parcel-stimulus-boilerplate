@@ -18,6 +18,7 @@ make eslint    # run eslint
 
 - [Parcel](https://parceljs.org/docs/)
 - [Stimulus](https://stimulus.hotwired.dev/)
+- [posthtml-include](https://github.com/posthtml/posthtml-include/)
 
 ### Useful links
 
