@@ -1,4 +1,4 @@
-# Parcel boilerplate
+# Parcel and Stimulus boilerplate
 
 ### Command lines
 
@@ -17,3 +17,9 @@ make eslint    # run eslint
 ### Documentation
 
 - [Parcel](https://parceljs.org/docs/)
+- [Stimulus](https://stimulus.hotwired.dev/)
+
+### Useful links
+
+- [Stimulus Components](https://www.stimulus-components.com/)
+- [Better StimulusJS](https://www.betterstimulus.com/)
