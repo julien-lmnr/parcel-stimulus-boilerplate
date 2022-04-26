@@ -3,6 +3,11 @@
     <include src="src/layout/_head.html" locals='{"page_title": "Accueil"}'></include>
 
     <body>
-        <h1 data-controller="hello-parcel">Hello Parcel!</h1>
+        <h1 data-controller="hello-parcel">
+            <svg class="icon icon-hand">
+                <use xlink:href="../assets/images/svg/icons.svg?logo#hand"></use>
+            </svg>
+            Hello Parcel and Stimulus!
+        </h1>
     </body>
 </html>

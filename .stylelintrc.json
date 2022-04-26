@@ -4,5 +4,6 @@
     "stylelint-scss"
   ],
   "rules": {
+    "at-rule-empty-line-before": null
   }
 }

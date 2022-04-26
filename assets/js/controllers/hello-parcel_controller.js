@@ -2,6 +2,6 @@ import { Controller } from "stimulus";
 
 export default class extends Controller {
     connect() {
-        console.log('Hello Parcel!');
+        console.log('Hello Parcel and Stimulus!');
     }
 }
