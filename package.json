@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "@parcel/transformer-postcss": "^2.4.1",
-    "@parcel/transformer-sass": "2.4.1",
+    "@parcel/transformer-sass": "^2.4.1",
     "eslint": "^8.13.0",
     "parcel": "^2.4.1",
     "posthtml-include": "^1.7.3",
